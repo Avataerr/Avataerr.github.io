@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="info">
+        <form action="submit" method="post">
+        
+        <div class="form_group">
+            <label for="fname">Your Name*</label><br>
+            <input type="text" required name="fname"><br>
+        </div>
+        
+        <div class="form_group">
+            <label for="email">Email*</label><br>
+             <input type="email" required name="email"><br>
+        </div>
+        
+        <div class="form_group">
+            <label for="cnumber">Contact No.*</label><br>
+            <input type="number"required name="cnumber"><br>
+        </div>
+        
+        <div class="form_group">
+            <label for="message">Message</label><br>
+            <textarea name="message"></textarea><br>
+            Required field* 
+            <br> <br>
+        </div>
+        
+        <div>
+            <button type="submit">Send</button>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    line-height: 1.5;
+}
+
+input, textarea{
+    background-image: linear-gradient(rgb(241, 238, 238), rgb(255, 255, 255));
+    border-color: rgb(165, 160, 160);
+    border-radius: 4px;
+    border-width: 1px;
+    border-style:solid;
+    height: 25px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+input[type="number"]{
+    width: 250px;
+}
+
+button[type="submit"]{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(212, 204, 204);
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(206, 213, 214);
+    color: aliceblue;
+}
+
+textarea{
+    height: 70px;
+    width: 650px;
+}

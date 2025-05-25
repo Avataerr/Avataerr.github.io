@@ -1,0 +1,44 @@
+body{
+    font-family: 'Calibri', 'sans-serif'
+}
+
+img{
+    max-width: 200px; 
+    max-height: 200px;
+    object-fit: contain;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+.red_text{
+    color: red;
+}
+
+.r3, .r4, .r7, .r8{
+    background-color: rgb(212, 204, 204);
+}
+
+.categ{
+    background-color: rgb(233, 226, 226);
+}
+
+.yellow_cell {
+    background-color: rgb(255, 218, 97);
+}
+
+.top_row{
+    background-color: rgb(136, 218, 233);
+}
+
