@@ -1,0 +1,42 @@
+body {
+    background: #0f1c22;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.orb-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: #222c33;
+    color: #eee;          
+    border: 1px solid #555;  /
+}
+
+.form-control,
+.form-select {
+    background-color: #ffffff1a;
+    color: #eee;
+    border: 1px solid #ffffff33;
+}
+
+.form-control::placeholder {
+    color: #ffffff99;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #2a3944;
+    border-color: #1e90ff;
+    color: #eee;
+    outline: none;
+}
