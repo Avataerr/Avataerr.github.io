@@ -4,73 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrollment Form</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="external_registration.css">
      <!-- FULL NAME, BIRTHDAY, GENDER, EMAIL, CONTACT NUMBER , ADDRESS, CHOSEN PROGRAM,    -->
 
     </head>
 <body>
-    <h1>ENROLLMENT FORM</h1>
-     
-    <div class="student_info">
-        <form action="submit" method="post">
+    
+    <div class="form-group">
+        <h1>ENROLLMENT FORM</h1>
+        <form action="#" method="post">
         
-        <div class="form_group">
-            <label for="lname">Last Name</label><br>
+            <!-- Enter Name -->
+            <label for="lname">Last Name</label>
             <input type="text" required name="lname"><br>
-        </div>
-
-        <div class="form_group">
-            <label for="fname">First Name</label><br>
+   
+            <label for="fname">First Name</label>
             <input type="text" required name="fname"><br>
-        </div>
-        
-        <div class="form_group">
+      
+            <!--  Enter Birthday -->
             <label for="birthday">Birthday</label>
             <input type="date" id="birthday" name="birthday">
-        </div>
+ 
+            <!-- Enter Gender -->
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">-OPTION-</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Prefer Not To</option>
+            </select>
 
-        <div class="form_group">
-            <label for="email">Email</label><br>
+            <!-- Enter Email -->
+            <label for="email">Email</label>
             <input type="email" required name="email"><br>
-        </div>
 
-        <div class="form_group">
-            <label for="cnumber">Contact No.</label><br>
+            <!-- Enter Number -->
+            <label for="cnumber">Contact No.</label>
             <input type="tel"required name="cnumber"><br>
-        </div>
-
-        <div class="form_group">
-            <label for="address">Address</label><br>
+   
+            <!-- Enter Address -->
+            <label for="address">Address</label>
             <input type="text" required name="address"><br>
-        </div>
 
-        <div class="form_group">
-            Gender: <br>
-            <input type="radio" id="male" name="fav_language" value="HTML">
-            <label for="html">Male</label><br>
-            <input type="radio" id="female" name="fav_language" value="CSS">
-            <label for="css">Female</label><br>
-            <input type="radio" id="prefer not" name="fav_language" value="JavaScript">
-            <label for="javascript">Prefer Not to Answer</label>
-        </div>
-
-        <div class="form_group">
+            <!-- Chosen Program -->
             <label for="program">Choose your Program:</label>
             <select id="program" name="program">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-            Bachelor of Science in Information Technology Specialized in Animation and Game Development
-            Bachelor of Science in Information Technology Specialized in Web and Mobile Application
-            Bachelor of Science in Information Technology Specialized in Cybersecurity
-            Bachelor of Science in Information Technology Specialized in Business Analytics
-            Bachelor of Science in Computer Science Specialized in Artificial Intelligence
-            Bachelor of Science in Computer Science Specialized in Data Science
-            Bachelor of Science in Computer Science Specialized in Software Engineering
-            Bachelor of Multimedia Arts
-            
+                <option value="">-OPTION-</option>
+                <option value="BSITAGD">Bachelor of Science in Information Technology Specialized in Animation and Game Development</option>
+                <option value="BSITWMA">Bachelor of Science in Information Technology Specialized in Web and Mobile Application</option>
+                <option value="BSITCST">Bachelor of Science in Information Technology Specialized in Cybersecurity</option>
+                <option value="BSITBA">Bachelor of Science in Information Technology Specialized in Business Analytics</option>
+                <option value="BSCSAI">Bachelor of Science in Computer Science Specialized in Artificial Intelligence</option>
+                <option value="BSCSDS">Bachelor of Science in Computer Science Specialized in Data Science</option>
+                <option value="BSCSSE">Bachelor of Science in Computer Science Specialized in Software Engineering</option>
+                <option value="BSMA">Bachelor of Multimedia Arts</option>
             </select>
-        </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
