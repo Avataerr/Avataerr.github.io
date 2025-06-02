@@ -1,7 +1,10 @@
 /* General Styles */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
+    background-image: url('image/8419375 (1).webp');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
     color: #333;
     margin: 0;
     padding: 0;
